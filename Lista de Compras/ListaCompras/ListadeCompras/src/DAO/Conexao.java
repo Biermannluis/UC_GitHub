@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  * @author 180000B1Z
  */
 public class Conexao {
-    private static final String url="jdbc:mysql://localhost:3306/projeto_integrador";
+    private static final String url="jdbc:mysql://localhost:3306/lista_compras";
     private static final String user="root";
     
     private static final String driver="com.mysql.jdbc.Driver";
