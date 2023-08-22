@@ -38,11 +38,17 @@ public class Painel extends javax.swing.JFrame {
         jLabel_Out_Quantidade = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(102, 0, 51));
 
         jLabelProduto.setText("Produto");
 
         jLabelQuantidade.setText("Quantidade");
 
+        jTextFieldProduto.setBackground(new java.awt.Color(102, 0, 102));
+        jTextFieldProduto.setForeground(new java.awt.Color(255, 255, 255));
+
+        jSliderQuantidade.setBackground(new java.awt.Color(102, 0, 102));
+        jSliderQuantidade.setForeground(new java.awt.Color(0, 102, 204));
         jSliderQuantidade.setMaximum(10);
         jSliderQuantidade.setMinimum(1);
         jSliderQuantidade.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -51,6 +57,8 @@ public class Painel extends javax.swing.JFrame {
             }
         });
 
+        jButtonAdicionar.setBackground(new java.awt.Color(153, 0, 153));
+        jButtonAdicionar.setForeground(new java.awt.Color(255, 255, 255));
         jButtonAdicionar.setText("Adicionar");
         jButtonAdicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
