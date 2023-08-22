@@ -5,10 +5,17 @@
  */
 package Model;
 
+import javax.swing.JSlider;
+import javax.swing.JTextField;
+
 /**
  *
  * @author 180000B1Z
  */
 public class AdicionarModel {
+    public static void adicionar(JTextField jTextFieldProduto,JSlider jSliderQuantidade, String data, String hora){
+        
+        
+    }
     
 }
