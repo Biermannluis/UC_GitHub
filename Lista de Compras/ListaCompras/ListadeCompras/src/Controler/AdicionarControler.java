@@ -24,13 +24,12 @@ public class AdicionarControler {
         } else {
             LocalDateTime now = LocalDateTime.now();
             DateTimeFormatter data = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-            DateTimeFormatter hora = DateTimeFormatter.ofPattern("HH:mm>:ss");
+            DateTimeFormatter hora = DateTimeFormatter.ofPattern("HH:mm:ss");
             String dataformatada = now.format(data);
             String horaformatada = now.format(hora);
-            JOptionPane.showMessageDialog(null, dataformatada);
-            JOptionPane.showMessageDialog(null, horaformatada);
+            
 
-           // AdicionarModel.adicionar(jTextFieldProduto, jSliderQuantidade);
+            AdicionarModel.adicionar(jTextFieldProduto, jSliderQuantidade, dataformatada, horaformatada);
         }
 
     }
